@@ -170,6 +170,12 @@ https://github.com/THUDM/ChatGLM-6B
 
             https://github.com/databrickslabs/dolly
 
+### Deep Speed Chat  （更新于2023年4月13日）
+        该项目带来了全民ChatGPT的时代，训练成本再次大幅降低。项目是微软基于其Deep Speed优化库开发而成，具备强化推理、RLHF模块、RLHF系统三大核心功能，可将训练速度提升15倍以上，成本却大幅度降低。例如，一个130亿参数的类ChatGPT模型，只需1.25小时就能完成训练。 
+
+        开源地址为：https://github.com/microsoft/DeepSpeed
+
+
 ## 三、语料篇
 ### 开源传统对话语料
 正在整理中。。。
