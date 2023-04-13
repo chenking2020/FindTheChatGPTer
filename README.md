@@ -168,6 +168,7 @@ https://github.com/THUDM/ChatGLM-6B
         4月12日，Databricks发布了Dolly2.0，号称业内第一个开源、遵循指令的LLM，数据集由Databricks员工生成，并进行了开源且可用于商业目的。新提出的Dolly2.0是一个120亿参数的语言模型，基于开源EleutherAI pythia模型系列，针对小型开源指令记录语料库进行了微调。
 
         开源地址为：https://huggingface.co/databricks/dolly-v2-12b
+
             https://github.com/databrickslabs/dolly
 ## 三、语料篇
 ### 开源传统对话语料
