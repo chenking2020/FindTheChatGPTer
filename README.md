@@ -170,12 +170,44 @@ https://github.com/THUDM/ChatGLM-6B
         开源地址为：https://huggingface.co/databricks/dolly-v2-12b
 
             https://github.com/databrickslabs/dolly
+
 ## 三、语料篇
 ### 开源传统对话语料
-马上上线
+正在整理中。。。
 
 ### 指令集+答案
-马上上线
+1. Stanford-Alpaca数据集，52K的英文，采用Self-Instruct技术获取，数据已开源：
+   
+   https://github.com/tatsu-lab/stanford_alpaca/blob/main/alpaca_data.json
+2. 中文Stanford-Alpaca数据集，52K的中文数据，通过机器翻译翻译将Stanford-Alpaca翻译筛选成中文获得：
 
+   https://github.com/ymcui/Chinese-LLaMA-Alpaca/blob/main/data/alpaca_data_zh_51k.json
+3. pCLUE数据，基于提示的大规模预训练数据集，根据CLUE评测标准转化而来，数据量较大，有300K之多
+
+   https://github.com/CLUEbenchmark/pCLUE/tree/main/datasets
+4. Belle数据集，主要是中文，目前有2M和1.5M两个版本，都已经开源，数据获取方法同Stanford-Alpaca
+   
+   2M：https://huggingface.co/datasets/BelleGroup/train_2M_CN
+   
+   1M：https://huggingface.co/datasets/BelleGroup/train_1M_CN
+
+   0.5M：https://huggingface.co/datasets/BelleGroup/train_0.5M_CN
+5. 微软GPT-4数据集，包括中文和英文数据，采用Stanford-Alpaca方式，但是数据获取用的是GPT-4
+   
+   中文：https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM/blob/main/data/alpaca_gpt4_data_zh.json
+   
+   英文：https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM/blob/main/data/alpaca_gpt4_data.json
+
+6. 本项目创建初衷即是将ChatGPT上获取的数据清洗/翻译成高质量的中文语料，从而推进国内AI的发展，让中国人人可炼优质中文Chat模型，约约九万个对话数据，英文68000，中文11000条。
+
+   https://paratranz.cn/projects/6725/files
+   
 ### 仅指令集
-马上上线
+1. awesome-chatgpt-prompts，该项目基本通过众筹的方式，大家一起设计Prompts，可以用来调教ChatGPT，也可以拿来用Stanford-alpaca形式自行获取语料，有中英两个版本：
+
+   英文：https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv
+   
+   简体中文：https://github.com/PlexPt/awesome-chatgpt-prompts-zh/blob/main/prompts-zh.json
+
+   中国台湾繁体：https://github.com/PlexPt/awesome-chatgpt-prompts-zh/blob/main/prompts-zh-TW.json
+   
