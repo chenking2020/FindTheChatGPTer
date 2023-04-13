@@ -46,7 +46,19 @@ https://github.com/THUDM/ChatGLM-6B
        
         Github地址为：https://github.com/lucidrains/PaLM-rlhf-pytorch
 
-## 二、LLAMA薅羊毛篇
+### GPTrillion 
+
+        该项目号称开源的最大规模模型，高达1.5万亿，且是多模态的模型。其能力域包括自然语言理解、机器翻译、智能问答、情感分析和图文匹配等。其开源地址为：
+        
+        https://huggingface.co/banana-dev/GPTrillion
+        
+### OpenFlamingo
+
+        OpenFlamingo是一个对标GPT-4、支持大型多模态模型训练和评估的框架，由非盈利机构LAION重磅开源发布，其是对DeepMind的Flamingo模型的复现。目前开源的是其基于LLaMA的 OpenFlamingo-9B模型。Flamingo模型在包含交错文本和图像的大规模网络语料库上进行训练，具备上下文少样本学习能力。OpenFlamingo实现了原始Flamingo中提出的相同架构，在一个新的多模态C4数据集的5M样本和LAION-2B的10M样本上训练而来。该项目的开源地址是：
+ 
+        https://github.com/mlfoundations/open_flamingo
+
+## 二、Alpaca模式篇
 
         LLaMA是由Facebook 母公司Meta发布的全新人工智能大型语言模型，在生成文本、对话、总结书面材料、证明数学定理或预测蛋白质结构等任务上方面表现良好。LLaMA模型支持20种语言，包括拉丁语和西里尔字母语言，目前看原始模型并不支持中文。
 
@@ -133,19 +145,6 @@ https://github.com/THUDM/ChatGLM-6B
         该项目github地址为：
         
         https://github.com/OptimalScale/LMFlow
-            
-
-### GPTrillion 
-
-        该项目号称开源的最大规模模型，高达1.5万亿，且是多模态的模型。其能力域包括自然语言理解、机器翻译、智能问答、情感分析和图文匹配等。其开源地址为：
-        
-        https://huggingface.co/banana-dev/GPTrillion
-        
-### OpenFlamingo
-
-        OpenFlamingo是一个对标GPT-4、支持大型多模态模型训练和评估的框架，由非盈利机构LAION重磅开源发布，其是对DeepMind的Flamingo模型的复现。目前开源的是其基于LLaMA的 OpenFlamingo-9B模型。Flamingo模型在包含交错文本和图像的大规模网络语料库上进行训练，具备上下文少样本学习能力。OpenFlamingo实现了原始Flamingo中提出的相同架构，在一个新的多模态C4数据集的5M样本和LAION-2B的10M样本上训练而来。该项目的开源地址是：
- 
-        https://github.com/mlfoundations/open_flamingo
         
 ### Baize白泽
 
