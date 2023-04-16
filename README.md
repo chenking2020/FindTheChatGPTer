@@ -180,6 +180,24 @@ https://github.com/THUDM/ChatGLM-6B
         
         开源地址为：https://github.com/GanjinZero/RRHF
 
+### Guanaco （更新于2023年4月16日）
+        Guanaco是一个基于目前主流的LLaMA-7B模型训练的指令对齐语言模型，原始52K数据的基础上，额外添加了534K+条数据，涵盖英语、日语、德语、简体中文、繁体中文（台湾）、繁体中文（香港）以及各种语言和语法任务。丰富的数据助力模型的提升和优化，其在多语言环境中展示了出色的性能和潜力。
+        
+        开源地址为：https://github.com/Guanaco-Model/Guanaco-Model.github.io
+
+### LLMZoo（凤凰Phoenix和Chimera） （更新于2023年4月16日）
+        LLMZoo，即LLM动物园开源项目维护了一系列开源大模型，其中包括了近期备受关注的来自香港中文大学（深圳）和深圳市大数据研究院的王本友教授团队开发的Phoenix（凤凰）和Chimera等开源大语言模型，其中文本效果号称接近百度文心一言，GPT-4评测号称达到了97%文心一言的水平，在人工评测中五成不输文心一言。
+
+        Phoenix 模型有两点不同之处：在微调方面，指令式微调与对话式微调的进行了优化结合；支持四十余种全球化语言。
+
+        开源地址为：https://github.com/FreedomIntelligence/LLMZoo
+
+### OpenAssistant （更新于2023年4月16日）
+        OpenAssistant是一个开源聊天助手，其可以理解任务、与第三方系统交互、动态检索信息。据其说，其是第一个在人类数据上进行训练的完全开源的大规模指令微调模型。该模型主要创新在于一个较大的人类反馈数据集（详细说明见数据篇），公开测试显示效果在人类对齐和毒性方面做的不错，但是中文效果尚有不足。
+
+        开源地址为：https://github.com/LAION-AI/Open-Assistant
+
+
 ## 三、语料篇
 ### 开源传统对话语料
 正在整理中。。。
@@ -210,6 +228,10 @@ https://github.com/THUDM/ChatGLM-6B
 6. ShareChat数据集，其将ChatGPT上获取的数据清洗/翻译成高质量的中文语料，从而推进国内AI的发展，让中国人人可炼优质中文Chat模型，约约九万个对话数据，英文68000，中文11000条。
 
    https://paratranz.cn/projects/6725/files
+7. OpenAssistant Conversations， 该数据集是由LAION AI等机构的研究者收集的大量基于文本的输入和反馈的多样化和独特数据集。该数据集有161443条消息，涵盖35种不同的语言。该数据集的诞生主要是众包的形式，参与者超过了13500名志愿者，数据集目前面向所有人开源开放。
+
+   https://huggingface.co/datasets/OpenAssistant/oasst1
+
    
 ### 仅指令集
 1. awesome-chatgpt-prompts，该项目基本通过众筹的方式，大家一起设计Prompts，可以用来调教ChatGPT，也可以拿来用Stanford-alpaca形式自行获取语料，有中英两个版本：
