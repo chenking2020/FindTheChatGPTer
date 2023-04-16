@@ -176,9 +176,9 @@ https://github.com/THUDM/ChatGLM-6B
         开源地址为：https://github.com/microsoft/DeepSpeed
         
 ### Wombat （更新于2023年4月16日）
-        该项目采取了不同于RLHF的方式RRHF进行人类偏好对齐，RRHF相对于RLHF训练的模型量和超参数量远远降低。RRHF训练得到的Wombat-7B在性能上相比于Alpaca有显著的增加，和人类偏好对齐的更好。
+        该项目采取了不同于RLHF的方式RRHF进行人类偏好对齐，RRHF相对于RLHF训练的模型量和超参数量远远降低。RRHF训练得到的Wombat-7B在性能上相比于Alpaca有显著的增加，和人类偏好对齐的更好。
         
-        开源地址为：https://github.com/GanjinZero/RRHF
+        开源地址为：https://github.com/GanjinZero/RRHF
 
 ## 三、语料篇
 ### 开源传统对话语料
