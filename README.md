@@ -42,7 +42,6 @@ https://github.com/THUDM/ChatGLM-6B
 ### PaLM-rlhf-pytorch
 
         其号称首个开源ChatGPT平替项目，其基本思路是基于谷歌语言大模型PaLM架构，以及使用从人类反馈中强化学习的方法（RLHF）。PaLM是谷歌在今年4月发布的5400亿参数全能大模型，基于Pathways系统训练。其可以完成写代码、聊天、语言理解等任务，并且在大多数任务上具有强大的少样本学习性能。同时采用了ChatGPT一样的强化学习机制，能让AI的回答更加符合情景要求，降低模型毒性。
-       
        
         Github地址为：https://github.com/lucidrains/PaLM-rlhf-pytorch
 
