@@ -58,6 +58,13 @@ https://github.com/THUDM/ChatGLM-6B
  
         https://github.com/mlfoundations/open_flamingo
 
+### LLaVA （更新于2023年4月19日）
+
+        LLaVA是一个多模态的语言和视觉对话模型，类似GPT-4，其主要还是在多模态数据指令工程上做了大量工作，目前开源了其13B的模型文件。从性能上，据了解视觉聊天相对得分达到了GPT-4的85%；多模态推理任务的科学问答达到了SoTA的92.53%。该项目的开源地址是：
+
+        https://github.com/haotian-liu/LLaVA
+ 
+
 ## 二、Alpaca模式篇
 
         LLaMA是由Facebook 母公司Meta发布的全新人工智能大型语言模型，在生成文本、对话、总结书面材料、证明数学定理或预测蛋白质结构等任务上方面表现良好。LLaMA模型支持20种语言，包括拉丁语和西里尔字母语言，目前看原始模型并不支持中文。
@@ -244,6 +251,9 @@ https://github.com/THUDM/ChatGLM-6B
 8. firefly-train-1.1M数据集，该数据集是一份高质量的包含1.1M中文多任务指令微调数据集，包含23种常见的中文NLP任务的指令数据。对于每个任务，由人工书写若干指令模板，保证数据的高质量与丰富度。利用该数据集，研究者微调训练了一个中文对话式大语言模型（Firefly(流萤)）。
    
    https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M
+9. LLaVA-Instruct-150K，该数据集是一份高质量多模态指令数据，综合考虑了图像的符号化表示、GPT-4、提示工程等。
+
+   https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K
 ### 仅指令集
 
 1. awesome-chatgpt-prompts，该项目基本通过众筹的方式，大家一起设计Prompts，可以用来调教ChatGPT，也可以拿来用Stanford-alpaca形式自行获取语料，有中英两个版本：
