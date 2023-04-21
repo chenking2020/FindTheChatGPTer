@@ -227,45 +227,45 @@ https://github.com/THUDM/ChatGLM-6B
 
 1. Stanford-Alpaca数据集，52K的英文，采用Self-Instruct技术获取，数据已开源：
    
-        https://github.com/tatsu-lab/stanford_alpaca/blob/main/alpaca_data.json
+   https://github.com/tatsu-lab/stanford_alpaca/blob/main/alpaca_data.json
 2. 中文Stanford-Alpaca数据集，52K的中文数据，通过机器翻译翻译将Stanford-Alpaca翻译筛选成中文获得：
 
-        https://github.com/ymcui/Chinese-LLaMA-Alpaca/blob/main/data/alpaca_data_zh_51k.json
+   https://github.com/ymcui/Chinese-LLaMA-Alpaca/blob/main/data/alpaca_data_zh_51k.json
 3. pCLUE数据，基于提示的大规模预训练数据集，根据CLUE评测标准转化而来，数据量较大，有300K之多
 
-        https://github.com/CLUEbenchmark/pCLUE/tree/main/datasets
+   https://github.com/CLUEbenchmark/pCLUE/tree/main/datasets
 4. Belle数据集，主要是中文，目前有2M和1.5M两个版本，都已经开源，数据获取方法同Stanford-Alpaca
    
-        2M：https://huggingface.co/datasets/BelleGroup/train_2M_CN
+   2M：https://huggingface.co/datasets/BelleGroup/train_2M_CN
    
-        1M：https://huggingface.co/datasets/BelleGroup/train_1M_CN
+   1M：https://huggingface.co/datasets/BelleGroup/train_1M_CN
 
-        0.5M：https://huggingface.co/datasets/BelleGroup/train_0.5M_CN
+   0.5M：https://huggingface.co/datasets/BelleGroup/train_0.5M_CN
 5. 微软GPT-4数据集，包括中文和英文数据，采用Stanford-Alpaca方式，但是数据获取用的是GPT-4
    
-        中文：https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM/blob/main/data/alpaca_gpt4_data_zh.json
+   中文：https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM/blob/main/data/alpaca_gpt4_data_zh.json
    
-        英文：https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM/blob/main/data/alpaca_gpt4_data.json
+   英文：https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM/blob/main/data/alpaca_gpt4_data.json
 
 6. ShareChat数据集，其将ChatGPT上获取的数据清洗/翻译成高质量的中文语料，从而推进国内AI的发展，让中国人人可炼优质中文Chat模型，约约九万个对话数据，英文68000，中文11000条。
 
-        https://paratranz.cn/projects/6725/files
+   https://paratranz.cn/projects/6725/files
 7. OpenAssistant Conversations， 该数据集是由LAION AI等机构的研究者收集的大量基于文本的输入和反馈的多样化和独特数据集。该数据集有161443条消息，涵盖35种不同的语言。该数据集的诞生主要是众包的形式，参与者超过了13500名志愿者，数据集目前面向所有人开源开放。
 
-        https://huggingface.co/datasets/OpenAssistant/oasst1
+   https://huggingface.co/datasets/OpenAssistant/oasst1
 8. firefly-train-1.1M数据集，该数据集是一份高质量的包含1.1M中文多任务指令微调数据集，包含23种常见的中文NLP任务的指令数据。对于每个任务，由人工书写若干指令模板，保证数据的高质量与丰富度。利用该数据集，研究者微调训练了一个中文对话式大语言模型（Firefly(流萤)）。
    
-        https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M
+   https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M
 9. LLaVA-Instruct-150K，该数据集是一份高质量多模态指令数据，综合考虑了图像的符号化表示、GPT-4、提示工程等。
 
-        https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K
+   https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K
 10. UltraChat，该项目采用了两个独立的ChatGPT Turbo API来确保数据质量，其中一个模型扮演用户角色来生成问题或指令，另一个模型生成反馈。该项目的另一个质量保障措施是不会直接使用互联网上的数据作为提示。UltraChat对对话数据覆盖的主题和任务类型进行了系统的分类和设计，还对用户模型和回复模型进行了细致的提示工程，它包含三个部分：关于世界的问题、写作与创作和对于现有资料的辅助改写。该数据集目前只放出了英文版，期待中文版的开源。
 
-        https://huggingface.co/datasets/stingning/ultrachat
+   https://huggingface.co/datasets/stingning/ultrachat
 
 11. MOSS数据集，MOSS在开源其模型的同时，开源了部分数据集，其中包括moss-002-sft-data、moss-003-sft-data、moss-003-sft-plugin-data和moss-003-pm-data，其中只有moss-002-sft-data完全开源，其由text-davinci-003生成，包括中、英各约59万条、57万条。 
 
-        moss-002-sft-data：https://huggingface.co/datasets/fnlp/moss-002-sft-data
+   moss-002-sft-data：https://huggingface.co/datasets/fnlp/moss-002-sft-data
 ### 仅指令集
 
 1. awesome-chatgpt-prompts，该项目基本通过众筹的方式，大家一起设计Prompts，可以用来调教ChatGPT，也可以拿来用Stanford-alpaca形式自行获取语料，有中英两个版本：
