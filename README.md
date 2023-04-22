@@ -77,11 +77,21 @@ https://github.com/THUDM/ChatGLM-6B
 
 ## 二、Alpaca模式篇
 
-        LLaMA是由Facebook 母公司Meta发布的全新人工智能大型语言模型，在生成文本、对话、总结书面材料、证明数学定理或预测蛋白质结构等任务上方面表现良好。LLaMA模型支持20种语言，包括拉丁语和西里尔字母语言，目前看原始模型并不支持中文。
+        LLaMA是由Meta发布的全新人工智能大型语言模型，在生成文本、对话、总结书面材料、证明数学定理或预测蛋白质结构等任务上方面表现良好。LLaMA模型支持20种语言，包括拉丁语和西里尔字母语言，目前看原始模型并不支持中文。可以说LLaMA的史诗级泄露大力推进了类ChatGPT的开源发展。
 
-       LLaMA目前比较火的两个顶流开源项目是ChatLLaMA和stanford_alpaca
+        （更新于2023年4月22日）但遗憾的是目前LLama的授权比较有限，只能用作科研，不允许做商用。为了解决商用完全开源问题，RedPajama项目应运而生，其旨在创建一个完全开源的LLaMA复制品，可用于商业应用，并为研究提供更透明的流程。完整的RedPajama包括了1.2万亿token的数据集，其下一步将着手开始进行大规模训练。这项工作还是非常值得期待，其开源地址是：
 
-       ChatLLaMA是由Nebuly+AI推出的基于人类反馈强化学习的LLaMA+AI聊天机器人的开源实现，它的技术路线类似 ChatGPT，该项目上线刚刚 2 天，狂揽 5.2K 星。其github地址是：
+        （https://github.com/togethercomputer/RedPajama-Data
+
+### stanford-alpaca
+
+       斯坦福发布的alpaca（羊驼模型），是一个基于LLaMA-7B模型微调出一个新模型，其基本原理是让OpenAI的text-davinci-003模型以self-instruct方式生成52K指令样本，以此来微调LLaMA。该项目已将训练数据、生成训练数据的代码和超参数开源，模型文件尚未开源，以一天多达到5.6K星的关注度。该项工作由于成本低廉、数据易得，大受欢迎，也开启了低成本ChatGPT的效仿之路。其github地址为：
+
+        https://github.com/tatsu-lab/stanford_alpaca
+
+### ChatLLaMA
+
+       是由Nebuly+AI推出的基于人类反馈强化学习的LLaMA+AI聊天机器人的开源实现，它的技术路线类似 ChatGPT，该项目上线刚刚 2 天，狂揽 5.2K 星。其github地址是：
 
         https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/chatllama
 
@@ -95,15 +105,6 @@ https://github.com/THUDM/ChatGLM-6B
 
         支持各种尺寸的 LLaMA 模型架构，用户可以根据自身偏好对模型进行微调。
 
-       另外一个比较火的是最近刚发布的alpaca（羊驼模型），是由斯坦福基于 Meta 的 LLaMA 7B 模型微调出一个新模型，其基本原理是让 OpenAI 的 text-davinci-003 模型以 self-instruct 方式生成 52K 指令样本，以此来微调LLaMA。该项目已将训练数据、生成训练数据的代码和超参数开源，模型文件尚未开源，以一天多达到5.6K星的关注度，估计很快会开源其模型文件供大家使用。其github地址为：
-
-        https://github.com/tatsu-lab/stanford_alpaca
-
-        同时公布了一个DEMO地址：
-
-        https://alpaca-ai-custom6.ngrok.io
-
-        这种模式奠定了现在主流的类ChatGPT实现，大批类似模型开始涌现
 
 ### OpenChatKit
 
