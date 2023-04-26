@@ -75,6 +75,14 @@ https://github.com/THUDM/ChatGLM-6B
 
         该项目的开源地址是：https://github.com/Vision-CAIR/MiniGPT-4
 
+### HuggingChat （更新于2023年4月26日）
+ 
+        HuggingChat是Huggingface继OpenAssistant推出的对标ChatGPT的开源平替。其能力域基本与ChatGPT一致，在英文等语系上效果惊艳，被成为ChatGPT目前最强开源平替。但笔者尝试了中文，可谓一塌糊涂，中文能力还需要有较大的提升。
+
+        该项目的开源地址是：https://huggingface.co/OpenAssistant/oasst-sft-6-llama-30b-xor
+
+        在线体验地址是：https://huggingface.co/chat
+
 ## 二、Alpaca模式篇
 
         LLaMA是由Meta发布的全新人工智能大型语言模型，在生成文本、对话、总结书面材料、证明数学定理或预测蛋白质结构等任务上方面表现良好。LLaMA模型支持20种语言，包括拉丁语和西里尔字母语言，目前看原始模型并不支持中文。可以说LLaMA的史诗级泄露大力推进了类ChatGPT的开源发展。
@@ -222,8 +230,23 @@ https://github.com/THUDM/ChatGLM-6B
 
         开源地址为：https://github.com/LAION-AI/Open-Assistant
 
+## 四、通向开源AGI之路
 
-## 三、语料篇
+        ChatGPT的出现使大家振臂欢呼AGI时代的到来，是打开通用人工智能的一把关键钥匙。但ChatGPT仍然是一种人机交互对话形式，针对你唤醒的指令问题进行作答，还没有产生通用的自主的能力。但随着AutoGPT的出现，人们已经开始向这个方向大跨步的迈进。
+
+### AutoGPT （更新于2023年4月26日）
+ 
+        AutoGPT已经大火了一段时间，也被称为ChatGPT通往AGI的开山之作，截止4.26日已达114K星。AutoGPT虽然是用了GPT-4等的底座，但是这个底座可以进行迁移适配到开源版。其最大的特点就在于能全自动地根据任务指令进行分析和执行，自己给自己提问并进行回答，中间环节不需要用户参与，将“行动→观察结果→思考→决定下一步行动”这条路子给打通并循环了起来，使得工作更加的高效，更低成本。
+
+        该项目的开源地址是：https://github.com/Significant-Gravitas/Auto-GPT
+
+### OpenAGI （更新于2023年4月26日）
+ 
+        OpenAGI将复杂的多任务、多模态进行语言模型上的统一，重点解决可扩展性、非线性任务规划和定量评估等AGI问题。OpenAGI的大致原理是将任务描述作为输入大模型以生成解决方案，选择和合成模型，并执行以处理数据样本，最后评估语言模型的任务解决能力可以通过比较输出和真实标签的一致性。OpenAGI内的专家模型主要来自于Hugging Face的transformers、diffusers以及Github库。
+
+        该项目的开源地址是：https://github.com/agiresearch/OpenAGI
+
+## 四、语料篇
 
 ### 开源传统对话语料
 
