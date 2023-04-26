@@ -230,7 +230,7 @@ https://github.com/THUDM/ChatGLM-6B
 
         开源地址为：https://github.com/LAION-AI/Open-Assistant
 
-## 四、通向开源AGI之路
+## 三、通向开源AGI之路
 
         ChatGPT的出现使大家振臂欢呼AGI时代的到来，是打开通用人工智能的一把关键钥匙。但ChatGPT仍然是一种人机交互对话形式，针对你唤醒的指令问题进行作答，还没有产生通用的自主的能力。但随着AutoGPT的出现，人们已经开始向这个方向大跨步的迈进。
 
