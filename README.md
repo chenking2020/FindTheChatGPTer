@@ -75,14 +75,6 @@ https://github.com/THUDM/ChatGLM-6B
 
         该项目的开源地址是：https://github.com/Vision-CAIR/MiniGPT-4
 
-### HuggingChat （更新于2023年4月26日）
- 
-        HuggingChat是Huggingface继OpenAssistant推出的对标ChatGPT的开源平替。其能力域基本与ChatGPT一致，在英文等语系上效果惊艳，被成为ChatGPT目前最强开源平替。但笔者尝试了中文，可谓一塌糊涂，中文能力还需要有较大的提升。
-
-        该项目的开源地址是：https://huggingface.co/OpenAssistant/oasst-sft-6-llama-30b-xor
-
-        在线体验地址是：https://huggingface.co/chat
-
 ## 二、Alpaca模式篇
 
         LLaMA是由Meta发布的全新人工智能大型语言模型，在生成文本、对话、总结书面材料、证明数学定理或预测蛋白质结构等任务上方面表现良好。LLaMA模型支持20种语言，包括拉丁语和西里尔字母语言，目前看原始模型并不支持中文。可以说LLaMA的史诗级泄露大力推进了类ChatGPT的开源发展。
@@ -229,6 +221,14 @@ https://github.com/THUDM/ChatGLM-6B
         OpenAssistant是一个开源聊天助手，其可以理解任务、与第三方系统交互、动态检索信息。据其说，其是第一个在人类数据上进行训练的完全开源的大规模指令微调模型。该模型主要创新在于一个较大的人类反馈数据集（详细说明见数据篇），公开测试显示效果在人类对齐和毒性方面做的不错，但是中文效果尚有不足。
 
         开源地址为：https://github.com/LAION-AI/Open-Assistant
+
+        HuggingChat （更新于2023年4月26日）
+ 
+        HuggingChat是Huggingface继OpenAssistant推出的对标ChatGPT的开源平替。其能力域基本与ChatGPT一致，在英文等语系上效果惊艳，被成为ChatGPT目前最强开源平替。但笔者尝试了中文，可谓一塌糊涂，中文能力还需要有较大的提升。HuggingChat的底座是oasst-sft-6-llama-30b，也是基于Meta的LLaMA-30B微调的语言模型。
+
+        该项目的开源地址是：https://huggingface.co/OpenAssistant/oasst-sft-6-llama-30b-xor
+
+        在线体验地址是：https://huggingface.co/chat
 
 ## 三、通向AGI的开源之路
 
