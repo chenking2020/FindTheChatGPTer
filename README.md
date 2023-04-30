@@ -230,6 +230,22 @@ https://github.com/THUDM/ChatGLM-6B
 
         在线体验地址是：https://huggingface.co/chat
 
+### StableLM （更新于2023年4月30日）
+
+        StableVicuna是一个Vicuna-13B v0（LLaMA-13B上的微调）的RLHF的微调模型。
+
+        StableLM-Alpha是以开源数据集the Pile（含有维基百科、Stack Exchange和PubMed等多个数据源）基础上训练所得，训练token量达1.5万亿。
+ 
+        为了适应对话，其在Stanford Alpaca模式基础上，结合了Stanford's Alpaca, Nomic-AI's gpt4all, RyokoAI's ShareGPT52K datasets, Databricks labs' Dolly, and Anthropic's HH.等数据集，微调获得模型StableLM-Tuned-Alpha
+
+        该项目的开源地址是：https://github.com/Stability-AI/StableLM
+
+### 华驼(HuaTuo) （更新于2023年4月30日）
+
+        该模型垂直医学领域，经过中文医学指令精调/指令集对原始LLaMA-7B模型进行了微调，增强了医学领域上的对话能力。
+
+        该项目的开源地址是：https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese
+
 ## 三、通向AGI的开源之路
 
         ChatGPT的出现使大家振臂欢呼AGI时代的到来，是打开通用人工智能的一把关键钥匙。但ChatGPT仍然是一种人机交互对话形式，针对你唤醒的指令问题进行作答，还没有产生通用的自主的能力。但随着AutoGPT的出现，人们已经开始向这个方向大跨步的迈进。
