@@ -75,13 +75,33 @@ https://github.com/THUDM/ChatGLM-6B
 
         该项目的开源地址是：https://github.com/Vision-CAIR/MiniGPT-4
 
+### mPLUG-Owl （更新于2023年5月7日）
+ 
+        与miniGPT-4、LLaVA类似，其是一个对标GPT-4的开源多模态大模型，其延续了mPLUG系列的模块化训练思想。其目前开源了7B参数量的模型，同时第一次针对视觉相关的指令理解提出一个全⾯的测试集 OwlEval，通过人工评测对比了已有模型，包括LLaVA、MiniGPT-4等工作，其展示出更优的多模态能力，尤其在多模态指令理解能力、多轮对话能力、知识推理能力等方⾯表现突出。目前遗憾的是跟其他图文大模型一样，仍然只支持英文，但中文版已在其待开源List中。
+
+        该项目的开源地址是：https://github.com/X-PLUG/mPLUG-Owl
+
+
 ## 二、Alpaca模式篇
 
         LLaMA是由Meta发布的全新人工智能大型语言模型，在生成文本、对话、总结书面材料、证明数学定理或预测蛋白质结构等任务上方面表现良好。LLaMA模型支持20种语言，包括拉丁语和西里尔字母语言，目前看原始模型并不支持中文。可以说LLaMA的史诗级泄露大力推进了类ChatGPT的开源发展。
 
         （更新于2023年4月22日）但遗憾的是目前LLama的授权比较有限，只能用作科研，不允许做商用。为了解决商用完全开源问题，RedPajama项目应运而生，其旨在创建一个完全开源的LLaMA复制品，可用于商业应用，并为研究提供更透明的流程。完整的RedPajama包括了1.2万亿token的数据集，其下一步将着手开始进行大规模训练。这项工作还是非常值得期待，其开源地址是：
 
-        （https://github.com/togethercomputer/RedPajama-Data
+        https://github.com/togethercomputer/RedPajama-Data
+
+        （更新于2023年5月7日）
+
+        RedPajama更新了其训练模型文件，包括3B和7B两个参数量，其中3B可以在5年前发售的RTX2070游戏显卡上运行，弥补了LLaMa在3B上的空白。其模型地址为：
+
+        https://huggingface.co/togethercomputer
+
+        除了RedPajama，MosaicML推出MPT系列模型，其训练数据采用了RedPajama的数据，在各类性能评估中，与原版LLaMA旗鼓相当。其模型开源地址为：
+
+        https://huggingface.co/mosaicml
+
+        无论是RedPajama还是MPT，其同时也开源了对应的Chat版模型，这两个模型的开源为类ChatGPT商业化带来了巨大的推动。
+
 
 ### stanford-alpaca
 
@@ -245,6 +265,13 @@ https://github.com/THUDM/ChatGLM-6B
         该模型垂直医学领域，经过中文医学指令精调/指令集对原始LLaMA-7B模型进行了微调，增强了医学领域上的对话能力。
 
         该项目的开源地址是：https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese
+
+### ChatRWKV(Raven) （更新于2023年5月7日）
+
+        该模型的底座采用了自主研发的RWKV语言模型，100% RNN，微调部分仍然是经典的Alpaca、CodeAlpaca、Guanaco、GPT4All、 ShareGPT等。其开源了1B5、3B、7B和14B的模型，目前支持中英两个语种，提供不同语种比例的模型文件。
+
+        该项目的开源地址是：https://github.com/BlinkDL/ChatRWKV 或 https://huggingface.co/BlinkDL/rwkv-4-raven
+
 
 ## 三、通向AGI的开源之路
 
