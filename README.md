@@ -96,7 +96,7 @@ https://github.com/THUDM/ChatGLM-6B
 
         https://huggingface.co/togethercomputer
 
-        除了RedPajama，MosaicML推出MPT系列模型，其训练数据采用了RedPajama的数据，在各类性能评估中，与原版LLaMA旗鼓相当。其模型开源地址为：
+        除了RedPajama，MosaicML推出MPT系列模型，其训练数据采用了RedPajama的数据，在各类性能评估中，7B模型与原版LLaMA旗鼓相当。其模型开源地址为：
 
         https://huggingface.co/mosaicml
 
