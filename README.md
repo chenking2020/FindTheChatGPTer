@@ -85,7 +85,7 @@ https://github.com/THUDM/ChatGLM-6B
  
         PandaLM是一个模型评估大模型，旨在对其他大模型生成内容的偏好进行自动评价，节省人工评估成本。PandaLM自带有Web界面进行分析，同时还支持Python代码调用，仅用三行代码即可对任意模型和数据生成的文本评估，使用很方便。
 
-        该项目的开源地址是：https://github.com/WeOpenML/PandaLM
+        该项目开源地址是：https://github.com/WeOpenML/PandaLM
 
 ## 二、Alpaca模式篇
 
