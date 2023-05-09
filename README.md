@@ -81,6 +81,11 @@ https://github.com/THUDM/ChatGLM-6B
 
         该项目的开源地址是：https://github.com/X-PLUG/mPLUG-Owl
 
+### PandaLM （更新于2023年5月9日）
+ 
+        PandaLM是一个模型评估大模型，旨在对其他大模型生成内容的偏好进行自动评价，节省人工评估成本。PandaLM自带有Web界面进行分析，同时还支持Python代码调用，仅用三行代码即可对任意模型和数据生成的文本评估，使用很方便。
+
+        该项目的开源地址是：https://github.com/WeOpenML/PandaLM
 
 ## 二、Alpaca模式篇
 
@@ -272,6 +277,12 @@ https://github.com/THUDM/ChatGLM-6B
 
         该项目的开源地址是：https://github.com/BlinkDL/ChatRWKV 或 https://huggingface.co/BlinkDL/rwkv-4-raven
 
+
+### SELF-ALIGN和Dromedary （更新于2023年5月9日）
+
+        目前大部分类ChatGPT基本都是采用人工对齐方式，如RLHF，Alpaca模式只是实现了ChatGPT的效仿式对齐，对齐能力受限于原始ChatGPT对齐能力。卡内基梅隆大学语言技术研究所、IBM 研究院MIT-IBM Watson AI Lab和马萨诸塞大学阿默斯特分校的研究者提出了一种全新的自对齐方法。其结合了原则驱动式推理和生成式大模型的生成能力，用极少的监督数据就能达到很好的效果。该项目工作成功应用在LLaMA-65b模型上，研发出了Dromedary（单峰骆驼）。
+
+        该项目的开源地址是：https://github.com/IBM/Dromedary
 
 ## 三、通向AGI的开源之路
 
