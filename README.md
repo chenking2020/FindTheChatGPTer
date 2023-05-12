@@ -207,6 +207,12 @@ https://github.com/THUDM/ChatGLM-6B
 
         https://huggingface.co/blog/stackllama
 
+### Chinese-LLaMA-Alpaca
+
+        该项目针对中文对LLaMA进行了优化，并开源了其精调对话系统。该项目具体步骤包括：1. 词表扩充，采用sentencepiece在中文数据上进行了训练构建，并与LLaMA词表进行了合并；2. 预训练，在新词表上，约20G左右的通用中文语料进行了训练，训练中运用了LoRA技术；3. 利用Stanford Alpaca，在51k数据上进行了精调训练获得对话能力。
+
+        开源地址为：https://github.com/ymcui/Chinese-LLaMA-Alpaca
+
 ### Dolly2.0   （更新于2023年4月13日）
 
         4月12日，Databricks发布了Dolly2.0，号称业内第一个开源、遵循指令的LLM，数据集由Databricks员工生成，并进行了开源且可用于商业目的。新提出的Dolly2.0是一个120亿参数的语言模型，基于开源EleutherAI pythia模型系列，针对小型开源指令记录语料库进行了微调。
@@ -299,6 +305,20 @@ https://github.com/THUDM/ChatGLM-6B
         OpenAGI将复杂的多任务、多模态进行语言模型上的统一，重点解决可扩展性、非线性任务规划和定量评估等AGI问题。OpenAGI的大致原理是将任务描述作为输入大模型以生成解决方案，选择和合成模型，并执行以处理数据样本，最后评估语言模型的任务解决能力可以通过比较输出和真实标签的一致性。OpenAGI内的专家模型主要来自于Hugging Face的transformers、diffusers以及Github库。
 
         该项目的开源地址是：https://github.com/agiresearch/OpenAGI
+
+### BabyAGI （更新于2023年5月12日）
+ 
+        BabyAGI是仅次于AutoGPT火爆的AGI，运行方式类似AutoGPT，但具有不同的任务导向喜好。BabyAGI除了理解用户输入任务指令，他还可以自主探索，完成创建任务、确定任务优先级以及执行任务等操作。
+
+        该项目的开源地址是：https://github.com/yoheinakajima/babyagi
+
+### Transformers Agent （更新于2023年5月12日）
+ 
+        提起Agent，不免想起langchain agent，langchain的思想影响较大，其中AutoGPT就是借鉴了其思路。langchain agent可以支持用户根据自己的需求自定义插件，描述插件的具体功能，通过统一输入决定采用不同的插件进行任务处理，其后端统一接入LLM进行具体执行。
+
+        最近Huggingface开源了自己的Transformers Agent，其可以控制10万多个Hugging Face模型完成各种任务，通用智能也许不只是一个大脑，而是一个群体智慧结晶。其基本思路是agent充分理解你输入的意图，然后将其转化为Prompt，并挑选合适的模型去完成任务。
+
+        该项目的开源地址是：https://huggingface.co/docs/transformers/en/transformers_agents
 
 ## 四、语料篇
 
