@@ -39,6 +39,12 @@ https://github.com/THUDM/ChatGLM-6B
 
         从技术路线上看，其实现了ChatGPT强化学习人类对齐策略，使得生成效果更佳贴近人类价值，其目前能力域主要包括自我认知、提纲写作、文案写作、邮件写作助手、信息抽取、角色扮演、评论比较、旅游建议等，目前其已经开发了正在内测的1300亿的超大模型，算是目前开源平替里面参数规模较大的对话大模型。
 
+        VisualGLM-6B（更新于2023年5月19日）
+
+        该团队近期开源了ChatGLM-6B的多模态版，支持图像、中文和英文的多模态对话。语言模型部分采用ChatGLM-6B，图像部分通过训练BLIP2-Qformer构建起视觉模型与语言模型的桥梁，整体模型共78亿参数。VisualGLM-6B依靠来自于CogView数据集的30M高质量中文图文对，与300M经过筛选的英文图文对进行预训练，中英文权重相同。该训练方式较好地将视觉信息对齐到ChatGLM的语义空间；之后的微调阶段，模型在长视觉问答数据上训练，以生成符合人类偏好的答案。
+
+        VisualGLM-6B开源地址为：https://github.com/THUDM/VisualGLM-6B
+
 ### PaLM-rlhf-pytorch
 
         其号称首个开源ChatGPT平替项目，其基本思路是基于谷歌语言大模型PaLM架构，以及使用从人类反馈中强化学习的方法（RLHF）。PaLM是谷歌在今年4月发布的5400亿参数全能大模型，基于Pathways系统训练。其可以完成写代码、聊天、语言理解等任务，并且在大多数任务上具有强大的少样本学习性能。同时采用了ChatGPT一样的强化学习机制，能让AI的回答更加符合情景要求，降低模型毒性。
@@ -297,6 +303,13 @@ https://github.com/THUDM/ChatGLM-6B
 
         该项目的开源地址是：https://github.com/salesforce/LAVIS/tree/main/projects/instructblip
 
+### BiLLa （更新于2023年5月19日）
+ 
+        BiLLa是开源的推理能力增强的中英双语LLaMA模型，该模型训练过程和Chinese-LLaMA-Alpaca有点类似，都是三阶段：词表扩充、预训练和指令精调。不同的是在增强预训练阶段，BiLLa加入了任务数据，且没有采用Lora技术，精调阶段用到的指令数据也丰富的多。该模型在逻辑推理方面进行了特别增强，主要体现在加入了更多的逻辑推理任务指令。
+
+        该项目的开源地址是：https://github.com/Neutralzz/BiLLa
+
+
 ## 三、通向AGI的开源之路
 
         ChatGPT的出现使大家振臂欢呼AGI时代的到来，是打开通用人工智能的一把关键钥匙。但ChatGPT仍然是一种人机交互对话形式，针对你唤醒的指令问题进行作答，还没有产生通用的自主的能力。但随着AutoGPT的出现，人们已经开始向这个方向大跨步的迈进。
@@ -386,3 +399,8 @@ https://github.com/THUDM/ChatGLM-6B
 
    中国台湾繁体：https://github.com/PlexPt/awesome-chatgpt-prompts-zh/blob/main/prompts-zh-TW.json
    
+### RLHF
+
+1. PKU-Beaver，该项目首次公开了RLHF所需的数据集、训练和验证代码，是目前首个开源的可复现的RLHF基准。其首次提出了带有约束的价值对齐技术CVA，旨在解决人类标注产生的偏见和歧视等不安全因素。但目前该数据集只有英文。
+
+   英文：https://github.com/PKU-Alignment/safe-rlhf
