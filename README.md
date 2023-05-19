@@ -396,6 +396,7 @@ https://github.com/THUDM/ChatGLM-6B
 11. MOSS数据集，MOSS在开源其模型的同时，开源了部分数据集，其中包括moss-002-sft-data、moss-003-sft-data、moss-003-sft-plugin-data和moss-003-pm-data，其中只有moss-002-sft-data完全开源，其由text-davinci-003生成，包括中、英各约59万条、57万条。 
 
    moss-002-sft-data：https://huggingface.co/datasets/fnlp/moss-002-sft-data
+
 12. Alpaca-CoT，该项目旨在构建一个多接口统一的轻量级指令微调（IFT）平台，该平台具有广泛的指令集合，尤其是CoT数据集。该项目已经汇集了不少规模的数据，项目地址是：
 
    https://github.com/PhoebusSi/Alpaca-CoT/blob/main/CN_README.md
