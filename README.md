@@ -400,6 +400,12 @@ https://github.com/THUDM/ChatGLM-6B
 12. Alpaca-CoT，该项目旨在构建一个多接口统一的轻量级指令微调（IFT）平台，该平台具有广泛的指令集合，尤其是CoT数据集。该项目已经汇集了不少规模的数据，项目地址是：
 
    https://github.com/PhoebusSi/Alpaca-CoT/blob/main/CN_README.md
+
+13. zhihu_26k，知乎26k的指令数据，中文，项目地址是：
+
+   https://huggingface.co/datasets/liyucheng/zhihu_26k
+
+
 ### 仅指令集
 
 1. awesome-chatgpt-prompts，该项目基本通过众筹的方式，大家一起设计Prompts，可以用来调教ChatGPT，也可以拿来用Stanford-alpaca形式自行获取语料，有中英两个版本：
@@ -415,3 +421,7 @@ https://github.com/THUDM/ChatGLM-6B
 1. PKU-Beaver，该项目首次公开了RLHF所需的数据集、训练和验证代码，是目前首个开源的可复现的RLHF基准。其首次提出了带有约束的价值对齐技术CVA，旨在解决人类标注产生的偏见和歧视等不安全因素。但目前该数据集只有英文。
 
    英文：https://github.com/PKU-Alignment/safe-rlhf
+
+2. zhihu_rlhf_3k，基于知乎的强化学习反馈数据集，使用知乎的点赞数来作为评判标准，将同一问题下的回答构成正负样本对（chosen or reject）。
+
+   https://huggingface.co/datasets/liyucheng/zhihu_rlhf_3k
