@@ -309,6 +309,13 @@ https://github.com/THUDM/ChatGLM-6B
 
         该项目的开源地址是：https://github.com/Neutralzz/BiLLa
 
+### Ziya-LLaMA-13B-v1 （更新于2023年5月19日）
+ 
+        该项目是由IDEA开源，被成为"姜子牙"，是在LLaMA-13B基础上训练而得。该模型也采用了三阶段策略，一是重新构建中文词表；二是在千亿token量级数据规模基础上继续预训练，使模型具备原生中文能力；最后经过500万条多任务样本的有监督微调（SFT）和综合人类反馈训练（RM+PPO+HFFT+COHFT+RBRS)，增强各种AI能力。其同时开源了一个评估集，包括常识类问答、推理、自然语言理解任务、数学、写作、代码、翻译、角色扮演、翻译9大类任务，32个子类，共计185个问题。
+
+        该项目的开源地址是：https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-13B-v1
+
+        评估集开源地址是：https://huggingface.co/datasets/IDEA-CCNL/Ziya-Eval-Chinese
 
 ## 三、通向AGI的开源之路
 
@@ -389,6 +396,9 @@ https://github.com/THUDM/ChatGLM-6B
 11. MOSS数据集，MOSS在开源其模型的同时，开源了部分数据集，其中包括moss-002-sft-data、moss-003-sft-data、moss-003-sft-plugin-data和moss-003-pm-data，其中只有moss-002-sft-data完全开源，其由text-davinci-003生成，包括中、英各约59万条、57万条。 
 
    moss-002-sft-data：https://huggingface.co/datasets/fnlp/moss-002-sft-data
+12. Alpaca-CoT，该项目旨在构建一个多接口统一的轻量级指令微调（IFT）平台，该平台具有广泛的指令集合，尤其是CoT数据集。该项目已经汇集了不少规模的数据，项目地址是：
+
+   https://github.com/PhoebusSi/Alpaca-CoT/blob/main/CN_README.md
 ### 仅指令集
 
 1. awesome-chatgpt-prompts，该项目基本通过众筹的方式，大家一起设计Prompts，可以用来调教ChatGPT，也可以拿来用Stanford-alpaca形式自行获取语料，有中英两个版本：
