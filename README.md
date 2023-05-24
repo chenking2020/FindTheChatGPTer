@@ -56,6 +56,9 @@ https://github.com/THUDM/ChatGLM-6B
         该项目号称开源的最大规模模型，高达1.5万亿，且是多模态的模型。其能力域包括自然语言理解、机器翻译、智能问答、情感分析和图文匹配等。其开源地址为：
         
         https://huggingface.co/banana-dev/GPTrillion
+
+        （2023年5月24日，该项目是愚人节玩笑节目，项目已删除，特此说明）
+
         
 ### OpenFlamingo
 
