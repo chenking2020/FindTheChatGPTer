@@ -237,6 +237,12 @@ https://github.com/THUDM/ChatGLM-6B
         
         开源地址为：https://github.com/Guanaco-Model/Guanaco-Model.github.io
 
+        （更新于2023年5月27日，Guanaco-65B）
+
+        最近华盛顿大学提出QLoRA，使用4 bit量化来压缩预训练的语言模型，然后冻结大模型参数，并将相对少量的可训练参数以Low-Rank Adapters的形式添加到模型中，模型体量在大幅压缩的同时，几乎不影响其推理效果。该技术应用在微调LLaMA 65B中，通常需要780GB的GPU显存，该技术只需要48GB，训练成本大幅缩减。
+
+        开源地址为：https://github.com/artidoro/qlora
+
 ### LLMZoo（凤凰Phoenix和Chimera） （更新于2023年4月16日）
 
         LLMZoo，即LLM动物园开源项目维护了一系列开源大模型，其中包括了近期备受关注的来自香港中文大学（深圳）和深圳市大数据研究院的王本友教授团队开发的Phoenix（凤凰）和Chimera等开源大语言模型，其中文本效果号称接近百度文心一言，GPT-4评测号称达到了97%文心一言的水平，在人工评测中五成不输文心一言。
@@ -407,6 +413,11 @@ https://github.com/THUDM/ChatGLM-6B
 13. zhihu_26k，知乎26k的指令数据，中文，项目地址是：
 
    https://huggingface.co/datasets/liyucheng/zhihu_26k
+
+14. Gorilla APIBench指令数据集，该数据集从公开模型Hub（TorchHub、TensorHub和HuggingFace。）中抓取的机器学习模型API，使用自指示为每个API生成了10个合成的prompt。根据这个数据集基于LLaMA-7B微调得到了Gorilla，但遗憾的是微调后的模型没有开源：
+
+   https://github.com/ShishirPatil/gorilla/tree/main/data
+
 
 
 ### 仅指令集
