@@ -360,7 +360,9 @@ https://github.com/THUDM/ChatGLM-6B
 
 ### 开源传统对话语料
 
-正在整理中。。。
+1. LCCC，数据集有base与large两个版本，各包含6.8M和12M对话。这些数据是从79M原始对话数据中经过严格清洗得到的，包括微博、贴吧、小黄鸡等。
+
+   https://github.com/thu-coai/CDial-GPT#Dataset-zh
 
 ### 指令集+答案
 
