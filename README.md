@@ -440,6 +440,9 @@ https://github.com/THUDM/ChatGLM-6B
 22. databricks-dolly-15k，由Databricks员工在2023年3月-4月期间人工标注生成的自然语言指令。
 
     https://huggingface.co/datasets/databricks/databricks-dolly-15k
+23. chinese_chatgpt_corpus，该数据集收集了5M+ChatGPT样式的对话语料，源数据涵盖百科、知道问答、对联、古文、古诗词和微博新闻评论等。
+
+    https://huggingface.co/datasets/sunzeyeah/chinese_chatgpt_corpus
 
 ### 仅指令集
 
