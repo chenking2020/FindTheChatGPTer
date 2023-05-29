@@ -402,25 +402,44 @@ https://github.com/THUDM/ChatGLM-6B
    https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K
 10. UltraChat，该项目采用了两个独立的ChatGPT Turbo API来确保数据质量，其中一个模型扮演用户角色来生成问题或指令，另一个模型生成反馈。该项目的另一个质量保障措施是不会直接使用互联网上的数据作为提示。UltraChat对对话数据覆盖的主题和任务类型进行了系统的分类和设计，还对用户模型和回复模型进行了细致的提示工程，它包含三个部分：关于世界的问题、写作与创作和对于现有资料的辅助改写。该数据集目前只放出了英文版，期待中文版的开源。
 
-   https://huggingface.co/datasets/stingning/ultrachat
-
+    https://huggingface.co/datasets/stingning/ultrachat
 11. MOSS数据集，MOSS在开源其模型的同时，开源了部分数据集，其中包括moss-002-sft-data、moss-003-sft-data、moss-003-sft-plugin-data和moss-003-pm-data，其中只有moss-002-sft-data完全开源，其由text-davinci-003生成，包括中、英各约59万条、57万条。 
 
-   moss-002-sft-data：https://huggingface.co/datasets/fnlp/moss-002-sft-data
-
+    moss-002-sft-data：https://huggingface.co/datasets/fnlp/moss-002-sft-data
 12. Alpaca-CoT，该项目旨在构建一个多接口统一的轻量级指令微调（IFT）平台，该平台具有广泛的指令集合，尤其是CoT数据集。该项目已经汇集了不少规模的数据，项目地址是：
 
-   https://github.com/PhoebusSi/Alpaca-CoT/blob/main/CN_README.md
-
+    https://github.com/PhoebusSi/Alpaca-CoT/blob/main/CN_README.md
 13. zhihu_26k，知乎26k的指令数据，中文，项目地址是：
 
-   https://huggingface.co/datasets/liyucheng/zhihu_26k
-
+    https://huggingface.co/datasets/liyucheng/zhihu_26k
 14. Gorilla APIBench指令数据集，该数据集从公开模型Hub（TorchHub、TensorHub和HuggingFace。）中抓取的机器学习模型API，使用自指示为每个API生成了10个合成的prompt。根据这个数据集基于LLaMA-7B微调得到了Gorilla，但遗憾的是微调后的模型没有开源：
 
-   https://github.com/ShishirPatil/gorilla/tree/main/data
+    https://github.com/ShishirPatil/gorilla/tree/main/data
+15. GuanacoDataset 在52K Alpaca数据的基础上，额外添加了534K+条数据，涵盖英语、日语、德语、简体中文、繁体中文（台湾）、繁体中文（香港）等。
 
+    https://huggingface.co/datasets/JosephusCheung/GuanacoDataset
+16. ShareGPT，ShareGPT是一个由用户主动贡献和分享的对话数据集，它包含了来自不同领域、主题、风格和情感的对话样本，覆盖了闲聊、问答、故事、诗歌、歌词等多种类型。这种数据集具有很高的质量、多样性、个性化和情感化，目前数据量已达160K对话。
 
+    https://sharegpt.com/
+17. HC3，其是由人类-ChatGPT 问答对比组成的数据集，总共大约87k
+
+    中文：https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese
+    英文：https://huggingface.co/datasets/Hello-SimpleAI/HC3
+18. OIG，该数据集涵盖43M高质量指令，如多轮对话、问答、分类、提取和总结等。
+
+    https://huggingface.co/datasets/laion/OIG
+19. COIG，由BAAI发布中文通用开源指令数据集，相比之前的中文指令数据集，COIG数据集在领域适应性、多样性、数据质量等方面具有一定的优势。目前COIG数据集主要包括：通用翻译指令数据集、考试指令数据集、价值对其数据集、反事实校正数据集、代码指令数据集。
+
+    https://huggingface.co/datasets/BAAI/COIG
+20. gpt4all-clean，该数据集由原始的GPT4All清洗而来，共374K左右大小。
+
+    https://huggingface.co/datasets/crumb/gpt4all-clean
+21. baize数据集，100k的ChatGPT跟自己聊天数据集
+
+    https://github.com/project-baize/baize-chatbot/tree/main/data
+22. databricks-dolly-15k，由Databricks员工在2023年3月-4月期间人工标注生成的自然语言指令。
+
+    https://huggingface.co/datasets/databricks/databricks-dolly-15k
 
 ### 仅指令集
 
