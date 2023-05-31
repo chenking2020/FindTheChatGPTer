@@ -388,12 +388,16 @@ ChatGPT爆火出圈，国内很多高校、研究机构和企业都发出类似C
 
    https://github.com/CLUEbenchmark/pCLUE/tree/main/datasets
 4. Belle数据集，主要是中文，目前有2M和1.5M两个版本，都已经开源，数据获取方法同Stanford-Alpaca
-   
-   2M：https://huggingface.co/datasets/BelleGroup/train_2M_CN
+
+    3.5M：https://huggingface.co/datasets/BelleGroup/train_3.5M_CN
+
+    2M：https://huggingface.co/datasets/BelleGroup/train_2M_CN
    
    1M：https://huggingface.co/datasets/BelleGroup/train_1M_CN
 
    0.5M：https://huggingface.co/datasets/BelleGroup/train_0.5M_CN
+
+    0.8M多轮对话：https://huggingface.co/datasets/BelleGroup/multiturn_chat_0.8M
 5. 微软GPT-4数据集，包括中文和英文数据，采用Stanford-Alpaca方式，但是数据获取用的是GPT-4
    
    中文：https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM/blob/main/data/alpaca_gpt4_data_zh.json
@@ -455,6 +459,15 @@ ChatGPT爆火出圈，国内很多高校、研究机构和企业都发出类似C
 23. chinese_chatgpt_corpus，该数据集收集了5M+ChatGPT样式的对话语料，源数据涵盖百科、知道问答、对联、古文、古诗词和微博新闻评论等。
 
     https://huggingface.co/datasets/sunzeyeah/chinese_chatgpt_corpus
+24. kd_conv，多轮对话数据，总共4.5K条，每条都是多轮对话，涉及旅游、电影和音乐三个领域。
+
+    https://huggingface.co/datasets/kd_conv
+25. Dureader，该数据集是由百度发布的中文阅读理解和问答数据集，在2017年就发布了，这里考虑将其列入在内，也是基于其本质也是对话形式，并且通过合理的指令设计，可以讲问题、证据、答案进行巧妙组合，甚至做出一些CoT形式，该数据集超过30万个问题，140万个证据文档，66万的人工生成答案，应用价值较大。
+
+    https://aistudio.baidu.com/aistudio/datasetdetail/177185
+26. logiqa-zh，逻辑理解问题数据集，根据中国国家公务员考试公开试题中的逻辑理解问题构建的，旨在测试公务员考生的批判性思维和问题解决能力
+
+    https://huggingface.co/datasets/jiacheng-ye/logiqa-zh
 
 ### 仅指令集
 
