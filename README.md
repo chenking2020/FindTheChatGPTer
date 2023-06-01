@@ -105,6 +105,11 @@ ChatGPT爆火出圈，国内很多高校、研究机构和企业都发出类似C
 
         无论是RedPajama还是MPT，其同时也开源了对应的Chat版模型，这两个模型的开源为类ChatGPT商业化带来了巨大的推动。
 
+        （更新于2023年6月1日）
+
+        Falcon是对标LLaMA的有一个开放大模型底座，其拥有7B和40B两个参数量尺度，40B的性能号称超高65B的LLaMA。据了解，Falcon仍然采用GPT式的自回归解码器模型，但其在数据上下了大功夫，从公网上抓取内容构建好初始预训练数据集后，再使用CommonCrawl转储，进行大量过滤并进行大规模去重，最终得到一个由近5万亿个token组成的庞大预训练数据集。同时又加进了很多精选语料，包括研究论文和社交媒体对话等内容。但该项目的授权饱受争议，采用"半商业化"授权方式，在收益达到100万后开始有10%的商业费用。
+
+        该项目开源地址是：https://huggingface.co/tiiuae
 
 ### stanford-alpaca
 
@@ -367,6 +372,14 @@ ChatGPT爆火出圈，国内很多高校、研究机构和企业都发出类似C
         最近Huggingface开源了自己的Transformers Agent，其可以控制10万多个Hugging Face模型完成各种任务，通用智能也许不只是一个大脑，而是一个群体智慧结晶。其基本思路是agent充分理解你输入的意图，然后将其转化为Prompt，并挑选合适的模型去完成任务。
 
         该项目的开源地址是：https://huggingface.co/docs/transformers/en/transformers_agents
+
+### GirlfriendGPT （更新于2023年6月1日）
+ 
+        GPT-4的诞生，AI生成能力的大幅度跃迁，使人们开始更加关注数字人问题。通用人工智能的形态可能是更加智能、自主的人形智能体，他可以参与到我们真实生活中，给人类带来不一样的交流体验。近期，GitHub上开源了一个有意思的项目GirlfriendGPT，可以将现实中的女友克隆成虚拟女友，进行文字、图像、语音等不通模态的自主交流。
+
+        GirlfriendGPT现在可能只是一个toy级项目，但是随着AIGC的阶梯性跃迁变革，这样的陪伴机器人、数字永生机器人、冻龄机器人会逐渐进入人类的视野，并参与到人的社会活动中。
+
+        该项目的开源地址是：https://github.com/EniasCailliau/GirlfriendGPT
 
 ## 四、语料篇
 
