@@ -405,7 +405,35 @@ ChatGPT爆火出圈，国内很多高校、研究机构和企业都发出类似C
 
         该项目的开源地址是：https://github.com/EniasCailliau/GirlfriendGPT
 
-## 四、语料篇
+## 四、榜单篇
+
+        ChatGPT引爆了大模型的火山式喷发，琳琅满目的大模型出现在我们目前，本项目也汇聚了特别多的开源模型。但这些模型到底水平如何，还需要标准的测试。截止目前，大模型的评测逐渐得到重视，一些评测榜单也相继发布，因此，也汇聚在此处，供大家参考，以辅助判断模型的优劣。
+
+### Huggingface的Open LLM Leaderboard 
+
+        该榜单评测4个大的任务：AI2 Reasoning Challenge (25-shot)，小学科学问题评测集；HellaSwag (10-shot)，尝试推理评测集；MMLU (5-shot)，包含57个任务的多任务评测集；TruthfulQA (0-shot)，问答的是/否测试集。
+
+        榜单部分如下，详见：https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard
+
+![Open LLM Leaderboard 更新于2023年6月13日](images/Open-LLM-Leaderboard.png)
+
+### C-Eval 
+
+        该榜单旨在构造中文大模型的知识评估基准，其构造了一个覆盖人文，社科，理工，其他专业四个大方向，52个学科的13948道题目，范围遍布从中学到大学研究生以及职业考试。其数据集包括三类，一种是标注的问题、答案和判断依据，一种是问题和答案，一种是完全测试集。
+
+        榜单部分如下，详见：https://cevalbenchmark.com/static/leaderboard.html
+
+![Open LLM Leaderboard 更新于2023年6月13日](images/ceval.png)
+
+### SuperCLUE琅琊榜
+
+        该榜单来自中文语言理解测评基准开源社区CLUE，其旨在构造一个中文大模型匿名对战平台，利用Elo评分系统进行评分。
+
+        榜单部分如下，详见：https://www.superclueai.com/
+
+![Open LLM Leaderboard 更新于2023年6月13日](images/superclue.png)
+
+## 五、语料篇
 
 ### 开源传统对话语料
 
