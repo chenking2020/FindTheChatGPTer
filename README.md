@@ -102,6 +102,12 @@ ChatGPT爆火出圈，国内很多高校、研究机构和企业都发出类似C
 
         该项目开源地址是：https://github.com/facebookresearch/ImageBind
 
+### baichuan-7B（更新于2023年6月15日）
+ 
+        2023年4月10日，王小川官宣创办AI大模型公司“百川智能”，旨在打造中国版的OpenAI。在成立了两个月后，百川智能重磅开源其自主研发的baichuan-7B模型，支持中英文。baichuan-7B不仅在C-Eval、AGIEval和Gaokao中文权威评测榜单上，以显著优势全面超过了ChatGLM-6B等其他大模型，并且在MMLU英文权威评测榜单上，大幅领先LLaMA-7B。该模型在高质量数据上达到万亿token规模，并基于高效的attention算子优化支持上万超长动态窗口的扩张能力，目前开源支持4K上下文能力。该开源模型可以商用，比LLaMA更加友好。
+
+        该项目开源地址是：https://github.com/baichuan-inc/baichuan-7B
+
 ## 二、Alpaca模式篇
 
         LLaMA是由Meta发布的全新人工智能大型语言模型，在生成文本、对话、总结书面材料、证明数学定理或预测蛋白质结构等任务上方面表现良好。LLaMA模型支持20种语言，包括拉丁语和西里尔字母语言，目前看原始模型并不支持中文。可以说LLaMA的史诗级泄露大力推进了类ChatGPT的开源发展。
@@ -366,6 +372,11 @@ ChatGPT爆火出圈，国内很多高校、研究机构和企业都发出类似C
 
         该项目的开源地址是：https://github.com/VPGTrans/VPGTrans
 
+### TigerBot（更新于2023年6月15日）
+ 
+        TigerBot是一个基于BLOOM框架的大模型，在监督指令微调、可控的事实性和创造性、并行训练机制和算法层面上都做了相应改进。本次开源项目共开源7B和180B，是目前开源参数规模最大的。除了开源模型外，其还开源了其用的指令数据集。
+
+        该项目开源地址是：https://github.com/TigerResearch/TigerBot
 
 ## 三、通向AGI的开源之路
 
@@ -415,6 +426,8 @@ ChatGPT爆火出圈，国内很多高校、研究机构和企业都发出类似C
 
         榜单部分如下，详见：https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard
 
+        更新于2023年6月13日
+
 ![Open LLM Leaderboard 更新于2023年6月13日](images/Open-LLM-Leaderboard.png)
 
 ### C-Eval 
@@ -423,7 +436,9 @@ ChatGPT爆火出圈，国内很多高校、研究机构和企业都发出类似C
 
         榜单部分如下，详见：https://cevalbenchmark.com/static/leaderboard.html
 
-![Open LLM Leaderboard 更新于2023年6月13日](images/ceval.png)
+        更新于2023年6月13日
+
+![C-Eval  更新于2023年6月13日](images/ceval.png)
 
 ### SuperCLUE琅琊榜
 
@@ -431,7 +446,19 @@ ChatGPT爆火出圈，国内很多高校、研究机构和企业都发出类似C
 
         榜单部分如下，详见：https://www.superclueai.com/
 
-![Open LLM Leaderboard 更新于2023年6月13日](images/superclue.png)
+        更新于2023年6月13日
+
+![SuperCLUE 更新于2023年6月13日](images/superclue.png)
+
+### AlpacaEval
+
+        该榜单由Alpaca的提出者斯坦福发布，是一个以指令微调模式语言模型的自动评测榜，该排名采用GPT-4/Claude作为标准。
+
+        榜单部分如下，详见：https://tatsu-lab.github.io/alpaca_eval/
+
+                更新于2023年6月15日
+
+![AlpacaEval 更新于2023年6月15日](images/AlpacaEval.png)
 
 ## 五、语料篇
 
