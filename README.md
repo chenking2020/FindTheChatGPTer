@@ -378,6 +378,12 @@ ChatGPT爆火出圈，国内很多高校、研究机构和企业都发出类似C
 
         该项目开源地址是：https://github.com/TigerResearch/TigerBot
 
+### WizadLM（更新于2023年6月20日）
+ 
+        该模型是微软提出的在LLaMa基础上的微调模型，其核心采用了一种Evol-Instruct（进化指令）的思想。Evol-Instruct使用LLM生成大量不同复杂度级别的指令数据，其基本思想是从一个简单的初始指令开始，然后随机选择深度进化（将简单指令升级为更复杂的指令）或广度进化（在相关话题下创建多样性的新指令）。同时，其还提出淘汰进化的概念，即采用指令过滤器来淘汰出失败的指令。该模型以其独到的指令加工方法，一举夺得AlpacaEval的开源模型第一名。同时该团队又发布了WizardCoder-15B大模型，该模型专注代码生成，在HumanEval、HumanEval+、MBPP以及DS1000四个代码生成基准测试中，都取得了较好的成绩。
+
+        该项目开源地址是：https://github.com/nlpxucan/WizardLM
+
 ## 三、通向AGI的开源之路
 
         ChatGPT的出现使大家振臂欢呼AGI时代的到来，是打开通用人工智能的一把关键钥匙。但ChatGPT仍然是一种人机交互对话形式，针对你唤醒的指令问题进行作答，还没有产生通用的自主的能力。但随着AutoGPT的出现，人们已经开始向这个方向大跨步的迈进。
@@ -436,7 +442,7 @@ ChatGPT爆火出圈，国内很多高校、研究机构和企业都发出类似C
 
         榜单部分如下，详见：https://cevalbenchmark.com/static/leaderboard.html
 
-        更新于2023年6月13日
+        更新于2023年6月20日
 
 ![C-Eval  更新于2023年6月13日](images/ceval.png)
 
@@ -456,7 +462,7 @@ ChatGPT爆火出圈，国内很多高校、研究机构和企业都发出类似C
 
         榜单部分如下，详见：https://tatsu-lab.github.io/alpaca_eval/
 
-                更新于2023年6月15日
+                更新于2023年6月20日
 
 ![AlpacaEval 更新于2023年6月15日](images/AlpacaEval.png)
 
