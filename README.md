@@ -448,7 +448,7 @@ ChatGPT爆火出圈，国内很多高校、研究机构和企业都发出类似C
 
         榜单部分如下，详见：https://cevalbenchmark.com/static/leaderboard.html
 
-        更新于2023年6月20日
+        更新于2023年6月28日
 
 ![C-Eval  更新于2023年6月13日](images/ceval.png)
 
@@ -468,7 +468,7 @@ ChatGPT爆火出圈，国内很多高校、研究机构和企业都发出类似C
 
         榜单部分如下，详见：https://tatsu-lab.github.io/alpaca_eval/
 
-                更新于2023年6月20日
+                更新于2023年6月28日
 
 ![AlpacaEval 更新于2023年6月15日](images/AlpacaEval.png)
 
