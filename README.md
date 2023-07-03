@@ -403,6 +403,14 @@ ChatGPT爆火出圈，国内很多高校、研究机构和企业都发出类似C
 
         该项目开源地址是：https://github.com/imoneoi/openchat
 
+### BayLing 百聆（更新于2023年7月3日）
+ 
+        百聆（BayLing）是一个具有增强的跨语言对齐的通用大模型，由中国科学院计算技术研究所自然语言处理团队开发。BayLing以LLaMA为基座模型，探索了以交互式翻译任务为核心进行指令微调的方法，旨在同时完成语言间对齐以及与人类意图对齐，将LLaMA的生成能力和指令跟随能力从英语迁移到其他语言（中文）。在多语言翻译、交互翻译、通用任务、标准化考试的测评中，百聆在中文/英语中均展现出更好的表现，取得众多开源大模型中最佳的翻译能力，取得ChatGPT 90%的通用任务能力。BayLing开源了7B和13B的模型参数，以供后续翻译、大模型等相关研究使用。
+
+        该项目开源地址是：[https://github.com/imoneoi/openchat](https://github.com/ictnlp/BayLing)
+        在线体验地址是：[http://nlp.ict.ac.cn/bayling/demo](http://nlp.ict.ac.cn/bayling/demo)
+        论文地址是：[BayLing: Bridging Cross-lingual Alignment and Instruction Following through Interactive Translation for Large Language Models](https://arxiv.org/abs/2306.10968)
+
 ## 三、通向AGI的开源之路
 
         ChatGPT的出现使大家振臂欢呼AGI时代的到来，是打开通用人工智能的一把关键钥匙。但ChatGPT仍然是一种人机交互对话形式，针对你唤醒的指令问题进行作答，还没有产生通用的自主的能力。但随着AutoGPT的出现，人们已经开始向这个方向大跨步的迈进。
