@@ -411,6 +411,12 @@ ChatGPT爆火出圈，国内很多高校、研究机构和企业都发出类似C
 
         在线体验地址是：[http://nlp.ict.ac.cn/bayling/demo](http://nlp.ict.ac.cn/bayling/demo)
 
+### ChatLaw（更新于2023年7月6日）
+ 
+        ChatLaw是由北大团队发布的面向法律领域的垂直大模型，其一共开源了三个模型：ChatLaw-13B，基于姜子牙Ziya-LLaMA-13B-v1训练而来，但是逻辑复杂的法律问答效果不佳；ChatLaw-33B，基于Anima-33B训练而来，逻辑推理能力大幅提升，但是因为Anima的中文语料过少，导致问答时常会出现英文数据；ChatLaw-Text2Vec，使用93w条判决案例做成的数据集基于BERT训练了一个相似度匹配模型，可将用户提问信息和对应的法条相匹配，
+
+        该项目开源地址是：https://github.com/PKU-YuanGroup/ChatLaw
+
 ## 三、通向AGI的开源之路
 
         ChatGPT的出现使大家振臂欢呼AGI时代的到来，是打开通用人工智能的一把关键钥匙。但ChatGPT仍然是一种人机交互对话形式，针对你唤醒的指令问题进行作答，还没有产生通用的自主的能力。但随着AutoGPT的出现，人们已经开始向这个方向大跨步的迈进。
@@ -448,6 +454,12 @@ ChatGPT爆火出圈，国内很多高校、研究机构和企业都发出类似C
         GirlfriendGPT现在可能只是一个toy级项目，但是随着AIGC的阶梯性跃迁变革，这样的陪伴机器人、数字永生机器人、冻龄机器人会逐渐进入人类的视野，并参与到人的社会活动中。
 
         该项目的开源地址是：https://github.com/EniasCailliau/GirlfriendGPT
+
+### Camel AGI （更新于2023年7月6日）
+ 
+        Camel AGI早在3月份就被发布了出来，比AutoGPT等都要早，其提出了提出了一个角色扮演智能体框架，可以实现两个人工智能智能体的交流。Camel的核心本质是提示工程， 这些提示被精心定义，用于分配角色，防止角色反转，禁止生成有害和虚假的信息，并鼓励连贯的对话。
+
+        该项目的开源地址是：https://github.com/camel-ai/camel
 
 ## 四、榜单篇
 
